@@ -699,7 +699,7 @@ a { color: inherit; }
 
 /* ====== COMPANY ====== */
 .company {
-  background: linear-gradient(180deg, #a0cbf7 0%, #c8def9 100%);
+  background: linear-gradient(180deg, var(--blue-lavender) 0%, var(--blue-lavender-pale) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -710,7 +710,7 @@ a { color: inherit; }
   right: -100px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 60%);
+  background: radial-gradient(circle, rgba(107, 125, 160, 0.18) 0%, transparent 60%);
   border-radius: 50%;
   z-index: 0;
 }
@@ -772,12 +772,12 @@ a { color: inherit; }
 .company-info {
   display: grid;
   grid-template-columns: 130px 1fr;
-  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 1px solid var(--line);
 }
 .company-info dt,
 .company-info dd {
   padding: 16px 4px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid var(--line);
 }
 .company-info dt {
   font-size: 13px;
